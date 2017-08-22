@@ -32,6 +32,7 @@ class TaskTestCaseAddDeleteTask(TestCase):
         self.assertEquals(list_len + 1, list_len2)
         self.assertEquals(task.name, task_name)
         self.assertEquals(task1.name, task_name)
+        self.assertEquals(True, False)
         
     def testDeleteTask(self):
         
